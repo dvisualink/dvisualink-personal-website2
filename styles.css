@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Sans-serif;
+    font-size: 110%;
+}
+h1{
+    margin: 50px auto 0 auto;  
+    font-size: 4.625rem;
+    color: #66BFBF;
+ 
+}
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+
+}
+h3, a{
+    color:#11999E;
+}
+hr{
+    width: 30%;
+    border: none;
+    border-top:5px dotted grey;
+    width: 4%;
+    margin:100px auto;
+}
+
+/***   Class Selectors***/
+.top-container{
+    background-color: #eaf9f5;
+    position: relative;
+    padding-top:100px;
+}
+@media screen and (max-width:412px) and (min-height: 600px){
+    .top-container{
+    
+        width: 700px;
+        height: 850px;
+        margin-bottom: 0;
+    }
+    .mob-fir-top-container{
+        margin-top: 215px;
+        
+    }
+    .top-cloud{
+        margin-top: 200px;
+    }
+    .bottom-cloud{
+        display: none;
+    }
+    .h1-topcontainer{
+        width: 80px;
+        margin: 0 auto 0 195px;
+        text-align: center;
+    }
+    .middle-container{
+        width: 700px;
+        font-size: 1.5em;
+
+    }
+    .bottom-container{
+        padding-bottom: 50px;
+    }
+ 
+}
+
+
+.middle-container{
+   
+}
+
+.bottom-container{
+    margin-top:100px;
+    padding-top: 50px;
+    height: 100px;
+    background-color:  #66BFBF;
+   
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+  
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+
+
+}
+.footer-copyright{
+    margin:25px auto;
+    color: white;
+}
+.footer-link{
+    padding: 0 35px;
+    text-decoration: none;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.profile{
+    padding-top: 100px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    line-height: 2;
+}
